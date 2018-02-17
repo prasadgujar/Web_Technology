@@ -25,6 +25,105 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //font-awesome-icons -->
 <link href="//fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script>
+<script src='//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js'></script>
+<meta charset='UTF-8'>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"
+/>
+<link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg"
+ color="#111" />
+<link rel="canonical" href="https://codepen.io/kevinpowell/pen/mMeJEW" />
+
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<style class="cp-pen-styles">
+	@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
+	* {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body {
+		background: #353535;
+		color: #c4c4c4;
+		font-family: "Raleway", sans-serif;
+		font-size: 1.2rem;
+		
+	}
+
+	
+
+	
+	.main-content {
+		padding: 5%;
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 80%;
+		flex: 1 1 80%;
+		min-height: 100vh;
+	}
+
+	.portfolio {
+		display: grid;
+		height: 100%;
+		grid-template-rows: repeat(8, 1fr);
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 20px;
+	}
+
+	.portfolio-item {
+		background: #f96855;
+		color: #c4c4c4;
+		font-weight: 700;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		font-size: 1.5em;
+		background-size: cover;
+		background-position: top left;
+		-webkit-transition: all ease-in-out 300ms;
+		transition: all ease-in-out 300ms;
+		position: relative;
+		z-index: 10;
+	}
+
+	.portfolio-item.small {
+		grid-row: span 1;
+		grid-column: span 1;
+	}
+
+	.portfolio-item.medium {
+		grid-row: span 2;
+		grid-column: span 2;
+	}
+
+	.portfolio-item.large {
+		grid-row: span 3;
+		grid-column: span 3;
+	}
+
+	.portfolio-item.tall {
+		grid-row: span 3;
+		grid-column: span 2;
+	}
+
+	.portfolio-item.wide {
+		grid-row: span 2;
+		grid-column: span 3;
+	}
+
+	.portfolio-item:hover {
+		color: white;
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+	}
+
+	
+</style>
 </head>
 	
 <body>
@@ -63,69 +162,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 
 </div><!-- End Main Container -->
-<div class="container-a4">
-	<ul class="caption-style-4">
-		<li>
-			<img src="images/chaps_1x.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images/everycowboy_dribbbleready_shot.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images/ithinkican_01.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images/m.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images/raspberry.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images/sketch_1x.jpg" alt="">
-			<div class="caption">
-				<div class="blur"></div>
-				<div class="caption-text">
-					<h1>Amazing Caption</h1>
-					<p>Whatever It Is - Always Awesome</p>
-				</div>
-			</div>
-		</li>
-	</ul>
+
+
+<div class="main-content">
+	<div class="portfolio">
+		<div class="portfolio-item medium">
+			<img src="ok.jpg" alt="Mountain View">
+		</div>
+		<div class="portfolio-item medium">one</div>
+		<div class="portfolio-item large two">two</div>
+		<div class="portfolio-item medium">three</div>
+		<div class="portfolio-item small">four</div>
+		<div class="portfolio-item tall">five</div>
+		<div class="portfolio-item wide">six</div>
+		<div class="portfolio-item wide">six</div>
+		
+		
+	</div>
 </div>
 		</div>
 		<div class="clearfix"></div>
