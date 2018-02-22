@@ -57,7 +57,7 @@
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(../images/t33.jpg);
+    url(../images/5.jpg);
 }
 
 .xop-img-2 { 
@@ -67,7 +67,7 @@
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(../images/t3.jpg);
+    url(../images/6.jpg);
 }
 
 .xop-img-3 { 
@@ -77,7 +77,7 @@
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(../images/t1.jpg);
+    url(../images/5.jpg);
 }
 
 .xop-img-4 { 
@@ -87,7 +87,54 @@
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(../images/g7.jpg);
+    url(../images/6.jpg);
+}
+
+.xop-img-5 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/9.jpg);
+}
+
+.xop-img-6 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/10.jpg);
+}
+.xop-img-7 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/10.jpg);
+}
+.xop-img-8 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/10.jpg);
+}
+.xop-img-9 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/10.jpg);
 }
 
 .xop-info {
